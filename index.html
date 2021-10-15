@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="src/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="src/style/main.css" />
+	<script src="https://kit.fontawesome.com/d42423421e.js" crossorigin="anonymous"></script>
+	<title>FlightPool</title>
+</head>
+
+<body>
+	<!-- Главный экран -->
+	<div class="main-screen">
+
+		<div class="container"
+		>
+
+			<nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between pt-100">
+				<a class="navbar-brand" href="#"> 
+					<img src="/src/img/logo.png" width="100" alt=""> 
+				</a>
+				<div>
+					<ul class="navbar-nav">
+						<li class="nav-item "> <a class="nav-link" href="#">Акции<span class="sr-only"></span></a> </li>
+						<li class="nav-item"> <a class="nav-link" href="#">Поиск</a> </li>
+						<li class="nav-item"> <a class="nav-link" href="#">Регистрация на рейс</a> </li>
+					</ul>
+				</div> <a class="nav-button" href="#">Личный кабинет</a> 
+			</nav>
+
+			<div class="main-body d-flex justify-content-between flex-column">
+				<div class="row">
+						<div class="col-xs-12 col-sm-6">
+							<h1>FlightPool</h1>
+							<h2 class="">Мы сближаем города, вы - живете там, где хотите</h2> <a class="bttn-white" href="">Подобрать билеты</a> </div>
+						<div class="col-xs-12 col-sm-6 col-md-5 search-main">
+						<form>
+							<input name="Откуда" id="from" placeholder="Откуда " class="test-0-fd" />
+							<div class="form__line"></div>
+							<input name="Куда" id="to" placeholder="Куда" class="test-0-fa" />
+							<input name="Дата" placeholder="Дата" type="text" onfocus="(this.type='date')" class="test-0-fat" onblur="if(!this.value)this.type='text'">
+							<input name="Обратно" placeholder="Обратно" type="text" onfocus="(this.type='date')" class="test-0-fat" onblur="if(!this.value)this.type='text'">
+							<input name="Пассажиры" id="passenger" type="number" placeholder="Пассажиров" class="test-0-fnp" /> 
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="about-booking section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					<div class="page-title">
+						<h5 class="title">О БРОНИРОВАНИИ</h5>
+						<h3 class="dark-color">Наш подход к бронированию в особенности прост и ясен</h3> 
+					</div>
+					<div class="desc">
+						<p>Задача организации, в особенности же постоянный количественный рост и сфера нашей активности требует от нас анализа новых предложений.</p>
+					</div> <a href="#" class="bttn-default mt-5">Подробнее</a> </div>
+				<div class="service-icon col-xs-12 col-sm-6 col-md-5 col-md-offset-1">
+					<div class="service-box">
+						<div class="box-icon"> <i class="far fa-calendar-alt"></i> </div>
+						<h4>Дата</h4>
+						<p>Выбрать удобную дату вылета</p>
+					</div>
+					<div class="service-box">
+						<div class="box-icon"> <i class="fas fa-rocket"></i> </div>
+						<h4>Бронирование</h4>
+						<p>Накопить больше 50% бронирований на рейс</p>
+					</div>
+					<div class="service-box">
+						<div class="box-icon"> <i class="fas fa-dollar-sign"></i> </div>
+						<h4>Цена</h4>
+						<p>Получить снижение стоимости</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="company-trust section-padding">
+		<div class="container company-trust-main">
+			<div class="page-title page-title text-center d-flex flex-column"> <i class="fas fa-plane"></i>
+				<h5 class="title">ПОЧЕМУ МЫ</h5>
+				<h3 class="blue-color mt-3">Мы новая и энергичная авиакомпания, предоставляющая услуги пассажирских авиаперевозок небольшими малогабаритными самолетами</h3>
+				<p class="mt-2">Наша цель - развить связность между городами России путем организации ависообщений</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="action section-padding">
+		<div class="container">
+			<div class="page-title text-center mt-5">
+				<h5 class="title">АКЦИИ</h5>
+				<h3 class="dark-color mb-lg-5">Высокотехнологичная концепция общественного уклада</h3>
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<div class="price-box">
+							<div class="price-header promobg-1">
+								<div class="price-icon"> <span class="lnr lnr-rocket"></span> </div>
+								<h4 class="upper">Возврат и обмен Ваших билетов</h4> </div>
+							<div class="price-body">
+								<p>Пандемия поменяла планы многих путешественников, но мы знаем, что это не будет длиться вечно</p>
+							</div>
+							<div class="price-footer"> <a href="#" class="bttn-white">Просмотреть</a> </div>
+						</div>
+						<div class="space-30 hidden visible-xs"></div>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<div class="price-box">
+							<div class="price-header promobg-2">
+								<div class="price-icon"> <span class="lnr lnr-rocket"></span> </div>
+								<h4 class="upper">Лучшие предложения</h4> </div>
+							<div class="price-body">
+								<p>С начала января мы увеличиваем количество отправлений, чтобы Вы могли видеться со своими родными намного чаще. Выбирайте нашу компанию, чтобы отправляться туда, где Вас всегда ждут.</p>
+							</div>
+							<div class="price-footer"> <a href="#" class="bttn-white">Просмотреть</a> </div>
+						</div>
+						<div class="space-30 hidden visible-xs"></div>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<div class="price-box">
+							<div class="price-header promobg-3">
+								<div class="price-icon"> <span class="lnr lnr-rocket"></span> </div>
+								<h4 class="upper">Мы снова в строю</h4> </div>
+							<div class="price-body">
+								<p>С 10 декабря мы возобновим рейсы по большей части путей следования. Совсем скоро жизнь снова пойдет своим чередом!</p>
+							</div>
+							<div class="price-footer"> <a href="#" class="bttn-white">Просмотреть</a> </div>
+						</div>
+						<div class="space-30 hidden visible-xs"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="subcribe section-padding">
+		<div class="container">
+			<div class="subscribe-form text-center">
+				<h3 class="blue-color">Подпишитесь на закрытые акции</h3>
+				<div class="formis d-flex justify-content-center align-items-center mt-5">
+					<form class="" id="mc-form" novalidate="true">
+						<input type="email" class="control" placeholder="E-mail" required="required" id="mc-email" name="EMAIL">
+						<label class="" for="mc-email"></label>
+					</form>
+					<button class="bttn-white active" type="submit"><span class="lnr lnr-location"></span>Подписаться</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-5">
+					<h2 class="number">8 (800) 100-10-10</h2>
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --><span>Copyright ©<script>document.write(new Date().getFullYear());</script> Все права защищены | FlightPool
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        
+                    </div>
+                    <div class="col-xs-12 col-md-5">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#" class="footer-link">Главная</a></li>
+                                <li><a href="#" class="footer-link">Авторизация</a></li>
+                                <li><a href="#" class="footer-link">Регистрация</a></li>
+                                <li><a href="#" class="footer-link">Контакты</a></li>
+                                <li><a href="#" class="footer-link">Новости</a></li>
+                                <li><a href="#" class="footer-link">Возврат</a></li>
+                                <li><a href="#" class="footer-link">Обратная связь</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+  </body>
+</html>
